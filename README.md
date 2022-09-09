@@ -43,4 +43,15 @@ To create version/commit all changes by git
 git commit -m "message"  
 ```
 
+To send version/changes to github
+```
+git push origin main
+```
+
+To check remote url
+```
+git remove -v
+```
+Changes
+
 
