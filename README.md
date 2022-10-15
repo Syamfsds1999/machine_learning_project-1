@@ -52,6 +52,26 @@ To check remote url
 ```
 git remove -v
 ```
-Changes
+
+To setup CI/CD pieline in heroku we need 3 information
+1.HEROKU_EMAIL = syamsundar.fsds@gmail.com
+2.HEROKU_API_KEY = 2394003d-1c00-47ef-9fef-81b135a6d81e
+3.HEROKU_APP_NAME  = ml-regression123
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>: <tagname> .
+```
+> Note: Image name for  docker must be lower case
+
+To list docker image
+```
+docker images
+```
+
+Run docker image
+```
+docker run -p 5000:5000 -e PORT =5000 f8c749e73678
+```
 
 
