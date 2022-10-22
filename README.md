@@ -71,7 +71,17 @@ docker images
 
 Run docker image
 ```
-docker run -p 5000:5000 -e PORT =5000 f8c749e73678
+docker run -p 5000:5000 -e PORT=5000 7f2393d5a490 
+```
+
+To check running container in docker
+```
+docker ps
+
+```
+To stop docker container
+```
+docker stop <container_id>
 ```
 
 
