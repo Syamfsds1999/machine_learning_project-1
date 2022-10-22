@@ -55,7 +55,7 @@ git remove -v
 
 To setup CI/CD pieline in heroku we need 3 information
 1.HEROKU_EMAIL = syamsundar.fsds@gmail.com
-2.HEROKU_API_KEY = 2394003d-1c00-47ef-9fef-81b135a6d81e
+2.HEROKU_API_KEY = <>
 3.HEROKU_APP_NAME  = ml-regression123
 
 BUILD DOCKER IMAGE
